@@ -1,16 +1,14 @@
 //object desctructuring
 const { src, dest, watch, series } = require("gulp");
-
+//constant
 const sass = require("gulp-sass")(require("sass"))
 
 //Object Path
-
-//Object
 const paths = {
   url_scss: "styles.scss"
 }
 
-//Function
+//Functions
 function compileCss (paths) {
   return src(paths.url_scss)
     .pipe(sass())
@@ -22,6 +20,6 @@ function watchFile(){
 
 }
 
-
+//name funciones
 exports.compileCss = compileCss;
 exports.watchFile = watchFile;
