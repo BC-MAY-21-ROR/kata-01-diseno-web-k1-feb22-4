@@ -1,0 +1,11 @@
+.content {
+  @include phone {
+    width: 95%; 
+    margin: 0 auto; 
+  }
+
+  @include desktop {
+    width: 80%; 
+    margin: 0 auto; 
+  }
+}

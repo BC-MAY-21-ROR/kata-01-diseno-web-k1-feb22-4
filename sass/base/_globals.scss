@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+body {
+  font-size: 62.5%; //Reseteamos los REM de 16px a 10px para un facil manejo;
+  font-family: $family-opens-sans;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,h1 {
+  font-family: $family-poppins;
+}

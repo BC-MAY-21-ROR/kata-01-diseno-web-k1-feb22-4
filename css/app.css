@@ -338,3 +338,41 @@ template {
 [hidden] {
   display: none;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2, h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 375px) {
+  .content {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1440px) {
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

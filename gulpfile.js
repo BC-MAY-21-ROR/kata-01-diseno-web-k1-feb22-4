@@ -16,8 +16,7 @@ function compileCss () {
 }
 
 function watchFile(){
-    watch("style.scss", compileCss)
-
+    watch(paths.url_scss, compileCss)
 }
 
 //name funciones
