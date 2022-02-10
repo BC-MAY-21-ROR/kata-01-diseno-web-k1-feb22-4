@@ -8,30 +8,30 @@
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
 <body>
-  <header> 
-    <img src="../images/logo.svg" alt="Logo Image">
-    <button>Try It Free</button>
+  <header class="header"> <!--Bloque-->
+    <img src="../images/logo.svg" alt="Logo Image" class="header--logo">
+    <button class="button">Try It Free</button>
     <h1>Build The Community Your Fans Will Love</h1>
     <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
       Create connections with your users as you engage in genuine discussion.</p>
-    <button>Get Started For Free</button>
-    <img src="../images/illustration-mockups.svg" alt="illustration mockups">
+    <button class="button button-pink">Get Started For Free</button>
+    <img src="../images/illustration-mockups.svg" alt="illustration mockups" class="header--img">
   </header>
 
-  <main>
-    <section>
+  <main class="cards"><!--Bloque-->
+    <section class="card">
       <img src="../images/illustration-grow-together.svg" alt="illustration grow together">
       <h2>Grow Together</h2>
       <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
         Think of the insightful conversations you miss out on with a feedback form.</p>
     </section>
-    <section>
+    <section class="card">
       <img src="../images/illustration-flowing-conversation.svg" alt="illustration flowing conversation">
       <h2>Flowing Conversations</h2>
       <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
         have just-in-time loading for a more natural flow.</p>
-    </section>
-    <section>
+    </section >
+    <section class="card">
       <img src="../images/illustration-your-users.svg" alt="illustration your users">
       <h2> Your Users</h2>
       <p>  It takes no time at all to integrate Huddle with your app's authentication solution. 
@@ -39,27 +39,29 @@
     </section>
   </main>
   
-  <div>
+  <div class="card card-float">
     <h2>Ready To Build Your Community?</h2>
     <button>Get Started For Free</button>
   </div>
 
-  <footer>
-    <img src="../images/logo.svg" alt="Logo Image">
-    <div>
-      <img src="../images/icon-location.svg" alt="location icon">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua</p>
+  <footer class="footer">
+    <div class="footer__contact">
+      <img src="../images/logo.svg" alt="Logo Image">
+      <div>
+        <img src="../images/icon-location.svg" alt="location icon">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua</p>
+      </div>
+      <div>
+        <img src="../images/icon-phone.svg" alt="phone icon">
+        <a href="tel:+1-543-123-4567">+1-543-123-4567</a>
+      </div>
+      <div>
+        <img src="../images/icon-email.svg" alt="email icon">
+        <a href="mailto:example@huddle.com">example@huddle.com</a>
+      </div>
     </div>
-    <div>
-      <img src="../images/icon-phone.svg" alt="phone icon">
-      <a href="tel:+1-543-123-4567">+1-543-123-4567</a>
-    </div>
-    <div>
-      <img src="../images/icon-email.svg" alt="email icon">
-      <a href="mailto:example@huddle.com">example@huddle.com</a>
-    </div>
-    <nav>
+    <nav class="footer__nav">
       <ul>
         <li><a href="#">About Us</a></li>
         <li><a href="#">What We Do</a></li>
@@ -69,7 +71,7 @@
         <li><a href="#">Contact Us</a></li>
       </ul>
     </nav>
-    <div>
+    <div class="footer__icons">
       <img src="../images/facebook-f-brands.svg" alt="facebook icon">
       <img src="../images/twitter-brands.svg" alt="twitter icon">
       <img src="../images/instagram-brands.svg" alt="instagram icon">
