@@ -1,0 +1,44 @@
+.header {
+  background-color: $very-pale-cyan;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  margin-bottom:25px;
+
+  &__top{
+    align-items: center;
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    padding: 1.5rem 0;
+  }
+
+  &--logo{
+      width: 30%;
+  }
+}
+
+.header__main {
+  text-align: center; 
+  color: $very-dark-cyan;
+
+  img{
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  h1{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+    line-height: 1.5;
+  }
+}

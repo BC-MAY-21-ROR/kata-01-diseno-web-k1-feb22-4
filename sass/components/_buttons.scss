@@ -1,0 +1,24 @@
+.button {
+  border-radius: 5rem;
+  background-color: white;
+  border: none;
+  // box-shadow: 0px 3px 2px 4px gray;
+  box-shadow: 0px 5px 10px -10px #888888;
+  font-weight: 700;
+  padding: .4rem 1.4rem;
+  font-size: 0.7rem;
+  
+  &:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.3s
+  }
+  
+  &-pink {
+    background-color: $primary-pink;
+    color: white;
+    margin: 1rem 0 3rem 0; 
+    padding: 0.8rem 4rem;
+    font-size: 0.8rem;
+    }   
+}

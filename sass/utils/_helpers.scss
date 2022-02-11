@@ -1,8 +1,7 @@
 .content {
-  @include phone {
-    width: 95%; 
-    margin: 0 auto; 
-  }
+  width: 90%; 
+  margin: 0 auto; 
+
 
   @include desktop {
     width: 80%; 

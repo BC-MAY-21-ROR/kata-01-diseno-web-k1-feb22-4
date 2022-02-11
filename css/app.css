@@ -364,15 +364,75 @@ h2, h1 {
   font-family: "Poppins", sans-serif;
 }
 
-@media (min-width: 375px) {
-  .content {
-    width: 95%;
-    margin: 0 auto;
-  }
+.content {
+  width: 90%;
+  margin: 0 auto;
 }
 @media (min-width: 1440px) {
   .content {
     width: 80%;
     margin: 0 auto;
   }
+}
+
+.button {
+  border-radius: 5rem;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 5px 10px -10px #888888;
+  font-weight: 700;
+  padding: 0.4rem 1.4rem;
+  font-size: 0.7rem;
+}
+.button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button-pink {
+  background-color: #ff52bf;
+  color: white;
+  margin: 1rem 0 3rem 0;
+  padding: 0.8rem 4rem;
+  font-size: 0.8rem;
+}
+
+.header {
+  background-color: #ebfbff;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  margin-bottom: 25px;
+}
+.header__top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  padding: 1.5rem 0;
+}
+.header--logo {
+  width: 30%;
+}
+
+.header__main {
+  text-align: center;
+  color: #00252e;
+}
+.header__main img {
+  width: 90%;
+  margin: 0 auto;
+}
+.header__main h1 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+  width: 80%;
+}
+.header__main p {
+  font-size: 1rem;
+  margin: 1rem auto;
+  width: 90%;
+  line-height: 1.5;
 }
