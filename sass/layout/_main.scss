@@ -1,0 +1,45 @@
+main {    
+  .card {
+    border-radius: 1rem;
+    box-shadow: 0px 0px 30px -20px #888888;
+    margin: 0 auto 2.5rem auto;
+    padding: 2.3rem;
+    text-align: center;
+    
+    p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    
+    img {
+      margin: 2rem 0;
+      margin-bottom: 2.5rem;
+    }
+    
+    h2 {
+      font-size:1.3rem;
+    }
+    
+    section:last-of-type {
+      padding: 2.6rem;
+    }
+  }
+}
+
+.card-float {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px -20px #888888;
+  margin: 0 15px;
+  padding:0 1rem;
+  text-align: center;
+
+  h2{
+    font-size:1rem;
+    padding-top: 3rem;
+  }
+  
+  .button-pink{
+    padding: 0.8rem 2rem;
+  }
+}
