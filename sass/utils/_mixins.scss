@@ -3,9 +3,9 @@
     @content;
   }
 }
-
+// min-width: $desktop
 @mixin desktop {
-  @media (min-width: $desktop) {
+  @media (orientation:landscape) {//Si el ancho es mas grande que el alto
     @content;
   }
 }
