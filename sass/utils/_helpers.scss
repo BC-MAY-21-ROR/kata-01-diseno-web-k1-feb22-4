@@ -8,3 +8,7 @@
     margin: 0 auto; 
   }
 }
+
+.filter-white { 
+  filter: brightness(0) invert(1);
+}

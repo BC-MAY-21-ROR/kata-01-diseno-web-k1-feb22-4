@@ -1,0 +1,123 @@
+.footer {
+  position: relative;
+  padding-top: 8rem;
+  background-color: $very-dark-cyan;
+
+  .card-float {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px -20px #888888;
+    left: 0;
+    margin: 0 15px;
+    padding:0 1rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -20%;
+
+    h2{
+      font-size:1.1rem;
+      padding-top: 3rem;
+    }
+    
+    .button-pink{
+      padding: 1rem 3.5rem;
+      font-size: 0.7rem;
+    }
+  }
+
+    a,p {
+      color: $very-pale-cyan;
+      text-decoration: solid;
+    }
+    
+    ul {
+      list-style: none;
+      margin-bottom: 2rem;
+      padding: 0;
+    }
+
+    li {
+      margin: 1rem 0;
+    }
+
+    .footer__copyright {
+      margin: 20px 0 0 0;
+      padding-bottom: 2rem;
+      text-align: center;
+    }
+  }
+
+  .footer__contact {
+    margin-bottom: 3rem;
+
+    .footer__contact--logo {
+      width: 40%;
+    }
+    
+    .icons:first-of-type {
+      align-items: start;
+
+      img {
+        margin-top: 0.4rem;
+      }
+    }
+    
+    .icons {
+      align-items: center;
+      display: flex;
+      margin: 20px 0;
+
+      img {
+        margin-right: 1rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 0;
+        max-width: 80%;
+      }
+
+      a{
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+.footer__nav {
+  a{
+    font-size: 1rem;
+
+    &:hover {
+      font-weight: 700;
+    }
+  }
+  
+}
+
+.footer__icons {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin: auto;
+  width: 30%;
+  
+  img {
+    border-radius: 50%;
+    border: 0.3px solid white;
+    height: 25px;
+    padding: 5.3px;
+    width: 25px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+li {
+  font-size:15px;
+}
