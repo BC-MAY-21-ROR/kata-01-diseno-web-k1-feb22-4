@@ -15,14 +15,34 @@
     text-align: center;
     top: -20%;
 
-    h2{
-      font-size:1.1rem;
+    @include desktop {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0 23%;
+      top: -24%;
+      width: 56%;
+    }
+
+    h2 {
+      font-size: 1.1rem;
       padding-top: 3rem;
+
+      @include desktop {
+        font-size: 28px;
+      }
     }
     
-    .button-pink{
+    .button-pink {
       padding: 1rem 3.5rem;
       font-size: 0.7rem;
+      
+      @include desktop {
+        font-size: 1rem;
+        height: 70px;
+        width: 22rem;
+      }
     }
   }
 
@@ -79,21 +99,20 @@
         max-width: 80%;
       }
 
-      a{
+      a {
         font-size: 0.8rem;
       }
     }
   }
 
 .footer__nav {
-  a{
+  a {
     font-size: 1rem;
 
     &:hover {
       font-weight: 700;
     }
   }
-  
 }
 
 .footer__icons {

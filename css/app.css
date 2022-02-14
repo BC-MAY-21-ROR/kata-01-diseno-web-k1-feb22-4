@@ -437,13 +437,36 @@ p {
   text-align: center;
   top: -20%;
 }
+@media (orientation: landscape) {
+  .footer .card-float {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 23%;
+    top: -24%;
+    width: 56%;
+  }
+}
 .footer .card-float h2 {
   font-size: 1.1rem;
   padding-top: 3rem;
 }
+@media (orientation: landscape) {
+  .footer .card-float h2 {
+    font-size: 28px;
+  }
+}
 .footer .card-float .button-pink {
   padding: 1rem 3.5rem;
   font-size: 0.7rem;
+}
+@media (orientation: landscape) {
+  .footer .card-float .button-pink {
+    font-size: 1rem;
+    height: 70px;
+    width: 22rem;
+  }
 }
 .footer a, .footer p {
   color: #ebfbff;
@@ -627,17 +650,66 @@ main .card {
   padding: 2.3rem;
   text-align: center;
 }
+@media (orientation: landscape) {
+  main .card {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 2.3rem 1.5rem 2.3rem 2.3rem;
+  }
+}
 main .card p {
   font-size: 0.9rem;
   line-height: 1.5;
+}
+@media (orientation: landscape) {
+  main .card p {
+    font-size: 1.1rem;
+    text-align: left;
+  }
 }
 main .card img {
   margin: 2rem 0;
   margin-bottom: 2.5rem;
 }
+@media (orientation: landscape) {
+  main .card img {
+    height: 300px;
+  }
+}
 main .card h2 {
   font-size: 1.3rem;
 }
+@media (orientation: landscape) {
+  main .card h2 {
+    text-align: left;
+    font-size: 1.7rem;
+    margin-top: 0;
+  }
+}
 main .card section:last-of-type {
   padding: 2.6rem;
+}
+@media (orientation: landscape) {
+  main .card__info {
+    margin: 0 auto 0 8rem;
+    width: 41%;
+  }
+  main .card__info:last-of-type {
+    width: 39%;
+  }
+}
+main .card__info--right {
+  margin: 0 0 0 auto;
+}
+@media (orientation: landscape) {
+  main .card--reverse {
+    flex-direction: row;
+  }
+}
+@media (orientation: landscape) {
+  main .card--reverse img {
+    margin-left: 8rem;
+  }
 }

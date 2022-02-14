@@ -1,6 +1,6 @@
 main {    
   &.cards {
-    padding: 2rem 0 13rem 0; 
+    padding: 2rem 0 13rem 0;
   }
 
   .card {
@@ -10,23 +10,68 @@ main {
     padding: 2.3rem;
     text-align: center;
 
+    @include desktop {
+      align-items: center;  
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      padding: 2.3rem 1.5rem 2.3rem 2.3rem;
+    }
+    
     p {
       font-size: 0.9rem;
       line-height: 1.5;
+      
+      @include desktop{
+        font-size: 1.1rem;
+        text-align: left;
+      }
     }
     
     img {
       margin: 2rem 0;
       margin-bottom: 2.5rem;
+      @include desktop {
+        height: 300px;
+      }
     }
     
     h2 {
       font-size:1.3rem;
+      @include desktop{
+        text-align: left;
+        font-size: 1.7rem;
+        margin-top: 0;
+      }
     }
     
     section:last-of-type {
       padding: 2.6rem;
-      
+    }
+
+    &__info {
+      @include desktop{
+        margin: 0 auto 0 8rem;
+        width: 41%;
+        &:last-of-type {
+          width: 39%;
+        }
+      }
+    }
+
+    &__info--right {
+      margin: 0 0 0 auto;     
+    }
+
+    &--reverse{
+      @include desktop{
+        flex-direction: row;
+      }
+      img{
+        @include desktop{
+          margin-left: 8rem;
+        }
+      }
     }
   }
 }
