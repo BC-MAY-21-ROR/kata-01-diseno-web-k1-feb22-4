@@ -404,6 +404,7 @@ p {
   transform: scale(1.2);
   cursor: pointer;
   transition: 0.3s;
+  opacity: 0.5;
 }
 .button-pink {
   background-color: #ff52bf;
@@ -483,7 +484,6 @@ p {
 }
 .footer a, .footer p {
   color: #ebfbff;
-  text-decoration: solid;
 }
 .footer ul {
   list-style: none;
@@ -558,7 +558,8 @@ p {
   font-size: 1rem;
 }
 .footer__nav a:hover {
-  font-weight: 700;
+  padding-top: 0.5rem;
+  text-decoration: underline;
 }
 @media (orientation: landscape) {
   .footer__nav {
@@ -592,6 +593,7 @@ p {
 }
 .footer__icons img:hover {
   cursor: pointer;
+  filter: contrast(9%) sepia(1) hue-rotate(260deg) saturate(1000%);
 }
 
 li {
